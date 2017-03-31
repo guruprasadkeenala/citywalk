@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: citywalk
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: FB5U7BH
+Implementation-Vendor-Id: com.citywalk
+Build-Jdk: 1.8.0_45
+Implementation-URL: http://projects.spring.io/spring-boot/citywalk/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.citywalk.backend.CitywalkApplication
+
