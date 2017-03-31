@@ -1,20 +1,19 @@
-package com.citywalk.backend.repositary.impl;
+/*package com.citywalk.backend.repositary.impl;
 
 import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.citywalk.backend.exception.CitywalkException;
 import com.citywalk.backend.modal.Order;
 import com.citywalk.backend.repositary.OrderRepositary;
 
-@Repository
 public class OrderRepositaryImpl implements OrderRepositary {
 
-	@Resource
+	@Autowired
 	private OrderJPARepositary orderJPARepositary;
 	
 	@Override
@@ -59,3 +58,4 @@ public class OrderRepositaryImpl implements OrderRepositary {
 	}
 
 }
+*/

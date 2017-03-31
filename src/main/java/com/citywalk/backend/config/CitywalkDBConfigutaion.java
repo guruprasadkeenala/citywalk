@@ -20,7 +20,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @ComponentScan("com.citywalk.backend")
 @PropertySource("classpath:application.properties")
-@EnableJpaRepositories("com.citywalk.backend.repository")
+@EnableJpaRepositories(basePackages={"com.citywalk.backend"})
 public class CitywalkDBConfigutaion {
     @Value("${spring.datasource.driver-class-name}")
     private String DATABASE_DRIVER;
